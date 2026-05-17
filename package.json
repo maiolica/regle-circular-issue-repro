@@ -1,0 +1,17 @@
+{
+  "name": "regle-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "vue-tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@regle/core": "1.25.2",
+    "@regle/rules": "1.25.2",
+    "vue": "3.5.13"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3",
+    "vue-tsc": "^2.2.8"
+  }
+}
